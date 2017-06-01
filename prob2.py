@@ -3,16 +3,21 @@
 #For example, if s = 'azcbobobegghakl', then your program should print:
 #Number of times bob occurs is: 2
 
-s = 'bobobfpbobobbobboboobobobobbbbobb'
+#s = 'bobobfpbobobbobboboobobobobbbbobb'
 total = 0
 
-for i in range(len(s)):
+for i in range(len(s)-2):
+
     char = s[i]
+    x = s[i]+s[i+1]+s[i+2] 
     if char == 'b':
-        if s[i]+s[i+1]+s[i+2] == 'bob':
+        if x == 'bob':
             total += 1
-        elif IndexError:
-            break
+        else:
+            continue
 print(total)
+
+
         
 
+#Tested as correct
