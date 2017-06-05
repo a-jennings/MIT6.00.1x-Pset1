@@ -10,3 +10,23 @@
 s = 'azcbobobegghakl'
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
+
+
+
+
+
+
+
+
+
+#Examples
+
+#s = 'cgihonzy'
+#Longest substring in alphabetical order is: cgi
+#s = 'tzngslbgsrroi'
+#Longest substring in alphabetical order is: bgs
+#s = 'osmssycalvnqckwieyucnj'
+#Longest substring in alphabetical order is: mssy
+#s = 'gklmvxomrexfemqnrzxam'
+#Longest substring in alphabetical order is: gklmvx
+
