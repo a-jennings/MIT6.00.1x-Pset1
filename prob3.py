@@ -9,15 +9,16 @@
 #abcdefghijklmnopqrstuvwxyz
 
 
-#s = 'azcbobobegghakl'
-#s = 'cgihonzy'
-#Longest substring in alphabetical order is: cgi
-#s = 'tzngslbgsrroi'
-#Longest substring in alphabetical order is: bgs
-#s = 'osmssycalvnqckwieyucnj'
-#Longest substring in alphabetical order is: mssy
-#s = 'gklmvxomrexfemqnrzxam'
-#Longest substring in alphabetical order is: gklmvx
+#Currently not working as intended:
+#s = 'abcdefghijklmnopqrstuvwxyz'
+#Longest substring in alphabetical order is: abcdefghijklmnopqrstuvwxyz
+#s = 'xdkshumlrbtmzzz'
+#Longest substring in alphabetical order is: mzzz
+#s = 'axyuzrtrpgfueluwaawxx'
+#Longest substring in alphabetical order is: aawxx
+#s = 'wohzwgsy'
+#Longest substring in alphabetical order is: gsy
+
 
 long_string = ''
 temp_string = ''
