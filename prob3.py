@@ -7,16 +7,29 @@
 #then your program should print
 #Longest substring in alphabetical order is: abc
 
+
+
+
 s = 'azcbobobegghakl'
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alph = 'abcdefghijklmnopqrstuvwxyz'
+ans1 = ''  #make final answer
+ans2 = ''  #storage var 
+#/chars can bool!
 
+for i in range(len(s)-1):       #to fix s-1.
+    if s[i] <= s[i+1]:
+        ans2 = ans2 + s[i]
 
+        
+    elif s[i] > s[i+1]:
+        if len(ans2) > len(ans1):
+                ans1 = ans2
+                ans2 = ''
 
+print(ans2)
 
-
-
-
-
+#expected answer: beggh
+ 
 
 
 #Examples

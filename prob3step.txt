@@ -1,0 +1,6 @@
+id longest in order string set
+
+1: start with first letter, check if next letter comes after, if not continue 
+2: if it makes a set, add to a variable until it no longer works
+3: carry on through s until longer string set is found, replace
+4: 
