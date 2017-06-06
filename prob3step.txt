@@ -14,10 +14,13 @@ id longest in order string set
 
 			yes					no
 
+							
 		add to string, then			is the current string length
+
 		re ask 1.				greater than the previous?
 
 							yes			no
 
 						make new longer		delete string, re
 						string answer		ask 1
+
