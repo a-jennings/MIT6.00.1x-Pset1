@@ -4,3 +4,20 @@ id longest in order string set
 2: if it makes a set, add to a variable until it no longer works
 3: carry on through s until longer string set is found, replace
 4: 
+
+
+
+
+
+				1. is the next letter in s
+				after the current letter?
+
+			yes					no
+
+		add to string, then			is the current string length
+		re ask 1.				greater than the previous?
+
+							yes			no
+
+						make new longer		delete string, re
+						string answer		ask 1

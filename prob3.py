@@ -11,17 +11,18 @@
 
 
 s = 'azcbobobegghakl'
-alph = 'abcdefghijklmnopqrstuvwxyz'
 ans1 = ''  #make final answer
 ans2 = ''  #storage var 
 #/chars can bool!
 
 for i in range(len(s)-1):       #to fix s-1.
-    if s[i] <= s[i+1]:
-        ans2 = ans2 + s[i]
+    char = s[i]
+    next_char = s[i+1]
+    if char <= next_char:
+        ans2 = ans2 + s[i] # is picking up 'begg' but not 'beggh'?
 
         
-    elif s[i] > s[i+1]:
+    elif char > next_char:
         if len(ans2) > len(ans1):
                 ans1 = ans2
                 ans2 = ''
